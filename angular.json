@@ -26,7 +26,7 @@
             }
           },
           "options": {
-            "assets": [{"glob": "**/*", "input": "public"}],
+            "assets": [{ "glob": "**/*", "input": "public" }],
             "index": "src/index.html",
             "browser": "src/main.ts",
             "outputPath": "dist/demo",
