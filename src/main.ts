@@ -6,7 +6,7 @@ import { Cars } from './app/cars/cars';
   selector: 'app-root',
   imports: [Cars],
   template: `
- <ap-cars></ap-cars>
+ <app-cars></app-cars>
   `,
 })
 export class App {
