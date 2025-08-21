@@ -7,9 +7,9 @@ import { Component } from '@angular/core';
   styleUrl: './cars.css'
 })
 export class Cars {
-cars: any =[];
-baseCars =[
-  {
+cars: any = [];
+baseCars = [
+{
 images:"https://testologia.ru/cars-images/1.png",
 title:"BMW M4 Competition",
 text:"Идеальный баланс скорости и стиля. BMW M4 Competition - 510 л.с и драйв, созданный для покорения трасс и городских улиц.",
@@ -33,6 +33,11 @@ title: "Ferrari F8 Spider",
 text:"Мечта на колесах. Ferrari F8 Spider: 720 л.с., аэродинамика F1 и открытая кабина для тех, кто живет на полной скорости.",
 prices:[1450,1300,1100]
 }
-]
+];
+
+ngOnInit() {
+  this.cars = this.baseCars;
+  }
+
 }
 
